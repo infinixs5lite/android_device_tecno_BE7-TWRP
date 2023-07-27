@@ -8,15 +8,15 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from TECNO-BE7 device
-$(call inherit-product, device/tecno/TECNO-BE7/device.mk)
+# Inherit from BE7 device
+$(call inherit-product, device/tecno/BE7/device.mk)
 
-PRODUCT_DEVICE := TECNO-BE7
-PRODUCT_NAME := omni_TECNO-BE7
-PRODUCT_BRAND := TECNO
+PRODUCT_DEVICE := BE7
+PRODUCT_NAME := twrp_BE7
+PRODUCT_BRAND := TECNO pop 6 go
 PRODUCT_MODEL := TECNO BE7
 PRODUCT_MANUFACTURER := tecno
 
