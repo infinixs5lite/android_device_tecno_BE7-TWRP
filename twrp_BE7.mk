@@ -8,9 +8,6 @@
 # Inherit from BE7 device
 $(call inherit-product, device/tecno/BE7/device.mk)
 
-# Inherit some common twrp stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
-
 PRODUCT_DEVICE := BE7
 PRODUCT_NAME := twrp_BE7
 PRODUCT_BRAND := TECNO pop 6 go
