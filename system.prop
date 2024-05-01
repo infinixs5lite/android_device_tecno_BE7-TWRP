@@ -1,6 +1,16 @@
-ro.mediatek.platform=MT6739
-ro.hardware=mt6739
+# Another Props
+ro.mtk_tee_gp_support=1
 ro.mtk_microtrust_tee_support=1
+fbe.metadata.wrappedkey=true
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.hardware.kmsetkey=beanpod
-ro.hardware.gatekeeper=beanpo
+ro.hardware.gatekeeper=beanpod
+ro.adb.secure=0
+
+# MtkBoard
+ro.mediatek.platform=MT6739
+ro.hardware=mt6739
+
+# Board
+ro.product.device=BE7
+ro.build.product=BE7
