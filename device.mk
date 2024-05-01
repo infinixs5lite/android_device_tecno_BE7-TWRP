@@ -46,8 +46,8 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctrl 
 
 PRODUCT_PACKAGES += \
-    bootctrl.mt6768 \
-    bootctrl.mt6768.recovery
+    bootctrl.mt6739 \
+    bootctrl.mt6739.recovery
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
@@ -56,6 +56,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
+    android.hardware.fastboot@1.0-impl \
     android.hardware.fastboot@1.1-impl \
     fastbootd
 
