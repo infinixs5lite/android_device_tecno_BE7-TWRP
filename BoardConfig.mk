@@ -175,3 +175,8 @@ TW_INCLUDE_FASTBOOTD := true
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# PBRP
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_TORCH_PATH := "/sys/class/torch/torch/torch_level"
+PB_TORCH_MAX_BRIGHTNESS := 1
