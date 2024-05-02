@@ -165,6 +165,13 @@ TW_NO_HAPTICS := true
 TW_Y_OFFSET := 115
 TW_H_OFFSET := -115
 
+# MTP
+TW_HAS_MTP := true
+TW_MTP_DEVICE := /dev/mtp_usb
+
+# Fastbootd
+TW_INCLUDE_FASTBOOTD := true
+
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
